@@ -11,7 +11,6 @@ function SinglePost() {
         return response.json();
       })
       .then((json) => {
-        console.log(json);
         setSinglePost(json);
       })
       .catch((error) => {});
